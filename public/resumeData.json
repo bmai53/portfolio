@@ -1,0 +1,95 @@
+{
+  "main": {
+    "name": "Benny Mai",
+    "occupation": "Senior Undergraduate Student",
+    "description": "An aspiring software developer from Vancouver B.C",
+    "image": "profilepic.jpg",
+    "bio": "I am a senior undergraduate student, with a diverse background in Computer Science, Business, and Data Analytics. My recent projects involve working with various tools including C++, JavaScript, and Python.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "bmai@sfu.ca",
+    "phone": "555-555-5555",
+    "address": {
+      "street": "(Your Street)",
+      "city": "Vancouver",
+      "state": "BC",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://bennymai.me",
+    "resumedownload": "http://bennymai.me",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/bennymai/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/bmai53",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "",
+    "education": [
+      {
+        "school": "Simon Fraser University",
+        "degree": "BSc Joint Major Computing Science & Business Administration",
+        "graduated": "December 2020",
+        "description": "Pursued study in multiple disciplines, including software development, data analytics, and information systems."
+      }
+    ],
+    "work": [
+      {
+        "company": "Vancouver Coastal Health",
+        "title": "Jr. Business Analyst ",
+        "years": "January 2019 - April 2019",
+        "description": "Managed collaboration between multiple teams consisting of onsite and remote out of country team members in a dynamic work environment."
+      }
+    ],
+    "skills": [
+      {
+        "name": "C++",
+        "level": "85%"
+      },
+      {
+        "name": "Javascript",
+        "level": "80%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "70%"
+      },
+      {
+        "name": "Python",
+        "level": "60%"
+      },
+      {
+        "name": "HTML/CSS",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Typing Game",
+        "category": "Built with Node, and React Hooks",
+        "image": "typing-game.png",
+        "url": "http://bennymai.me/typing-game/"
+      },
+      {
+        "title": "Reddit Search",
+        "category": "Built with Node, React Hooks, material-ui, and pushshift API",
+        "image": "reddit-search.png",
+        "url": "http://bennymai.me/reddit-search/"
+      },
+      {
+        "title": "Burning Plus",
+        "category": "Built with JQuery, Node, Express, and PostgreSQL",
+        "image": "burning-plus.png",
+        "url": "http://paradox-project.herokuapp.com/burning-plus.html"
+      }
+    ]
+  }
+}
