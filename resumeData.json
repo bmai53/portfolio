@@ -15,7 +15,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://bennymai.me",
-    "resumedownload": "https://drive.google.com/file/d/14AtSofw6efpG1yZEYhLC_oMVWxpZxCdT/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1wJL6acF4v-kJlQTquhPHnMg65z8mvp97/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -49,16 +49,16 @@
     ],
     "skills": [
       {
-        "name": "C++",
-        "level": "85%"
-      },
-      {
         "name": "Javascript",
-        "level": "80%"
+        "level": "90%"
       },
       {
         "name": "ReactJs",
-        "level": "70%"
+        "level": "80%"
+      },
+      {
+        "name": "C++",
+        "level": "80%"
       },
       {
         "name": "Python",
@@ -73,16 +73,22 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Typing Game",
-        "category": "Built with Node, and React Hooks",
-        "image": "typing-game.png",
-        "url": "http://bennymai.me/typing-game/"
+        "title": "SFU Textbook Marketplace",
+        "category": "Built with PostgreSQL, Express, React, Node (PERN)",
+        "image": "marketplace.png",
+        "url": "https://sfu-textbook-marketplace.herokuapp.com/"
       },
       {
         "title": "Reddit Search",
         "category": "Built with Node, React Hooks, material-ui, and pushshift API",
         "image": "reddit-search.png",
         "url": "http://bennymai.me/reddit-search/"
+      },
+      {
+        "title": "Typing Game",
+        "category": "Built with Node, and React Hooks",
+        "image": "typing-game.png",
+        "url": "http://bennymai.me/typing-game/"
       },
       {
         "title": "Burning Plus",
