@@ -15,7 +15,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://bennymai.me",
-    "resumedownload": "https://drive.google.com/file/d/1V1CbRjEKyATxBZzI3aMR6S_niW1ePOnu/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1xqfsG_bR3CzoMUSxQ5xKUmXgE4lz8fzu/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -73,10 +73,10 @@
   "portfolio": {
     "projects": [
       {
-        "title": "SFU Textbook Marketplace",
+        "title": "Budget Tracker",
         "category": "Built with PostgreSQL, Express, React, Node (PERN)",
-        "image": "marketplace.png",
-        "url": "https://sfu-textbook-marketplace.herokuapp.com/"
+        "image": "budget-tracker.png",
+        "url": "https://bennymai.me/budget-tracker/"
       },
       {
         "title": "Reddit Search",
