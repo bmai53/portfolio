@@ -105,19 +105,20 @@ header .scrolldown a {
    margin-left: -29px;
    color: #fff;
    display: block;
-   height: 42px;
-   width: 42px;
-   font-size: 42px;
-   line-height: 42px;
+   height: 60px;
+   width: 60px;
+   font-size: 24px;
+   line-height: 60px;
    color: #fff;
    border-radius: 100%;
+   background-color: #525252;
 
    -webkit-transition: all .3s ease-in-out;
    -moz-transition: all .3s ease-in-out;
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { background-color: #11ABB0; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
