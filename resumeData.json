@@ -74,25 +74,36 @@
     "projects": [
       {
         "title": "Budget Tracker",
-        "category": "Built with PostgreSQL, Express, React, Node (PERN)",
+        "category": [
+          "PostgreSQL", 
+          "Express", 
+          "React", 
+          "Node"
+        ],
         "image": "budget-tracker.png",
-        "url": "https://bennymai.me/budget-tracker/"
+        "url": "https://bmai53.github.io/budget-tracker/"
       },
       {
         "title": "Reddit Search",
-        "category": "Built with Node, React Hooks, material-ui, and pushshift API",
+        "category": ["React", "Material-UI"],
         "image": "reddit-search.png",
-        "url": "http://bennymai.me/reddit-search/"
+        "url": "https://bmai53.github.io/reddit-search/"
       },
       {
         "title": "Typing Game",
-        "category": "Built with Node, and React Hooks",
+        "category": ["React"],
         "image": "typing-game.png",
-        "url": "http://bennymai.me/typing-game/"
+        "url": "https://bmai53.github.io/typing-game/"
+      },
+      {
+        "title": "Trivia Frenzy",
+        "category": ["Vue", "Bootstrap"],
+        "image": "trivia-frenzy.png",
+        "url": "https://bmai53.github.io/trivia-frenzy/"
       },
       {
         "title": "Burning Plus",
-        "category": "Built with JQuery, Node, Express, and PostgreSQL",
+        "category": ["PostgreSQL", "Express", "Node", "JQuery"],
         "image": "burning-plus.png",
         "url": "http://paradox-project.herokuapp.com/burning-plus.html"
       }
