@@ -102,6 +102,12 @@
         "url": "https://bmai53.github.io/trivia-frenzy/"
       },
       {
+        "title": "Open Jokes",
+        "category": ["MongoDB", "Express", "React", "Node"],
+        "image": "open-jokes.png",
+        "url": "https://openjokes.herokuapp.com/"
+      },
+      {
         "title": "Burning Plus",
         "category": ["PostgreSQL", "Express", "Node", "JQuery"],
         "image": "burning-plus.png",
