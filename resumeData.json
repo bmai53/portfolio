@@ -15,7 +15,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://bennymai.me",
-    "resumedownload": "https://drive.google.com/file/d/1GGY_UKCoL5HqZGsPqC825ztaKsPfbcJZ/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1YLJQ57pKcfuGVzZv28V6K9oU1dn2V4Lm/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -100,6 +100,12 @@
         "category": ["Vue", "Bootstrap"],
         "image": "trivia-frenzy.png",
         "url": "https://bmai53.github.io/trivia-frenzy/"
+      },
+      {
+        "title": "Open Jokes",
+        "category": ["MongoDB", "Express", "React", "Node"],
+        "image": "open-jokes.png",
+        "url": "https://openjokes.herokuapp.com/"
       },
       {
         "title": "Burning Plus",
