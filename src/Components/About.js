@@ -16,6 +16,12 @@ class About extends Component {
          var resumeDownload = this.props.data.resumedownload;
       }
 
+      if (this.props.data) {
+         var networks = this.props.data.social.map(function (network) {
+            return <span key={network.name}><a href={network.url}><i className={network.className}></i></a></span>
+         })
+      }
+
       const aboutRowStyles = {
          row: {
             margin: "auto"
@@ -30,7 +36,9 @@ class About extends Component {
          <section id="about">
             <div className="row">
                <div className="three columns">
-                  <img className="profile-pic" src={profilepic} alt="Profile Pic" />
+                  <div className="row">
+                     <img className="profile-pic" src={profilepic} alt="Profile Pic" />
+                  </div>
                </div>
                <div className="nine columns main-col">
                   <h2>About Me</h2>
