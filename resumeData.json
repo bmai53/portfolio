@@ -74,20 +74,9 @@
     "projects": [
       {
         "title": "Budget Tracker",
-        "category": [
-          "PostgreSQL", 
-          "Express", 
-          "React", 
-          "Node"
-        ],
+        "category": ["PostgreSQL", "Express", "React", "Node"],
         "image": "budget-tracker.png",
         "url": "https://bmai53.github.io/budget-tracker/"
-      },
-      {
-        "title": "Reddit Search",
-        "category": ["React", "Material-UI"],
-        "image": "reddit-search.png",
-        "url": "https://bmai53.github.io/reddit-search/"
       },
       {
         "title": "Typing Game",
@@ -102,10 +91,16 @@
         "url": "https://bmai53.github.io/trivia-frenzy/"
       },
       {
-        "title": "Open Jokes",
+        "title": "Reddit Search",
+        "category": ["React", "Material-UI"],
+        "image": "reddit-search.png",
+        "url": "https://bmai53.github.io/reddit-search/"
+      },
+      {
+        "title": "JokesDB",
         "category": ["MongoDB", "Express", "React", "Node"],
         "image": "open-jokes.png",
-        "url": "https://openjokes.herokuapp.com/"
+        "url": "https://jokesdb.herokuapp.com/"
       },
       {
         "title": "Burning Plus",
