@@ -106,7 +106,7 @@
         "title": "jokesDB",
         "category": ["MongoDB", "Flask", "React"],
         "image": "jokes-db.png",
-        "url": "https://jokesdb.herokuapp.com/"
+        "url": "https://bennymai.me/jokes-db/"
       },
       {
         "title": "Burning Plus",
