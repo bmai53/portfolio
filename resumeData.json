@@ -15,7 +15,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://bennymai.me",
-    "resumedownload": "https://drive.google.com/file/d/1YLJQ57pKcfuGVzZv28V6K9oU1dn2V4Lm/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1HA_xr1Ne0GUd2sba-0fEXrOBMW8TPjh7/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -41,6 +41,12 @@
     ],
     "work": [
       {
+        "company": "Excelar Technologies",
+        "title": "Software Developer",
+        "years": "September 2020 - Present",
+        "description": "Working in an agile team to develop an AI enhanced collaboration tool featuring Slack and Zoom integration using React and Redux."
+      },
+      {
         "company": "Vancouver Coastal Health",
         "title": "Jr. Business Analyst ",
         "years": "January 2019 - April 2019",
@@ -54,19 +60,19 @@
       },
       {
         "name": "ReactJs",
-        "level": "80%"
-      },
-      {
-        "name": "C++",
-        "level": "80%"
+        "level": "90%"
       },
       {
         "name": "Python",
-        "level": "60%"
+        "level": "80%"
       },
       {
         "name": "HTML/CSS",
         "level": "80%"
+      },
+      {
+        "name": "C++",
+        "level": "70%"
       }
     ]
   },
@@ -97,10 +103,10 @@
         "url": "https://bmai53.github.io/reddit-search/"
       },
       {
-        "title": "JokesDB",
-        "category": ["MongoDB", "Express", "React", "Node"],
-        "image": "open-jokes.png",
-        "url": "https://jokesdb.herokuapp.com/"
+        "title": "jokesDB",
+        "category": ["MongoDB", "Flask", "React"],
+        "image": "jokes-db.png",
+        "url": "https://bennymai.me/jokes-db/"
       },
       {
         "title": "Burning Plus",
