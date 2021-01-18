@@ -85,6 +85,12 @@
         "url": "https://bmai53.github.io/budget-tracker/"
       },
       {
+        "title": "jokesDB",
+        "category": ["MongoDB", "Flask", "React"],
+        "image": "jokes-db.png",
+        "url": "https://bennymai.me/jokes-db/"
+      },
+      {
         "title": "Typing Game",
         "category": ["React", "CSS"],
         "image": "typing-game.png",
@@ -101,12 +107,6 @@
         "category": ["React", "Material-UI"],
         "image": "reddit-search.png",
         "url": "https://bmai53.github.io/reddit-search/"
-      },
-      {
-        "title": "jokesDB",
-        "category": ["MongoDB", "Flask", "React"],
-        "image": "jokes-db.png",
-        "url": "https://bennymai.me/jokes-db/"
       },
       {
         "title": "Burning Plus",
