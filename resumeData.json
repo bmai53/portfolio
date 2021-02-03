@@ -85,6 +85,12 @@
         "url": "https://bmai53.github.io/budget-tracker/"
       },
       {
+        "title": "BennyBot",
+        "category": ["PyTorch", "Flask"],
+        "image": "chatbot.png",
+        "url": "https://chat-with-bennybot.herokuapp.com/"
+      },
+      {
         "title": "jokesDB",
         "category": ["MongoDB", "Flask", "React"],
         "image": "jokes-db.png",
@@ -107,12 +113,6 @@
         "category": ["React", "Material-UI"],
         "image": "reddit-search.png",
         "url": "https://bmai53.github.io/reddit-search/"
-      },
-      {
-        "title": "Burning Plus",
-        "category": ["PostgreSQL", "Express", "Node", "JQuery"],
-        "image": "burning-plus.png",
-        "url": "http://paradox-project.herokuapp.com/burning-plus.html"
       }
     ]
   }
