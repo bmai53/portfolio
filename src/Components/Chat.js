@@ -28,14 +28,16 @@ export default () => {
               </head>
             </iframe>
           </div>
-          <button
-            className='mobile-close-chat-btn'
-            onClick={() => {
-              setShowChat(false);
-            }}
-          >
-            Close Chat
-          </button>
+          <div className='chatbot-footer'>
+            <button
+              className='mobile-close-chat-btn'
+              onClick={() => {
+                setShowChat(false);
+              }}
+            >
+              Close Chat
+            </button>
+          </div>
         </>
       ) : null}
 
@@ -46,15 +48,18 @@ export default () => {
         onClick={() => {
           setShowChat(!showChat);
         }}
+        style={{
+          display: isSmallScreen && showChat ? "none" : "block",
+        }}
       >
         {!showChat ? (
           <>
             {/* made by surang at https://www.flaticon.com/ */}
             <img className='chatbot-image' src={chatbot} />
           </>
-        ) : !isSmallScreen ? (
+        ) : (
           "Close Chat"
-        ) : null}
+        )}
       </button>
 
       {!isSmallScreen ? (

@@ -1,6 +1,7 @@
 .chatbot {
-  height: 815px;
-  width: 375px;
+  background-color: white;
+  height: 750px;
+  width: 450px;
   position: fixed;
   bottom: 25px;
   right: 150px;
@@ -24,7 +25,7 @@
   transform: translateY(5px);
 }
 
-.mobile-close-chat-btn {
+.chatbot-footer {
   display: none;
 }
 
@@ -40,12 +41,22 @@
     border: none;
   }
 
-  .mobile-close-chat-btn {
+  .chatbot-footer {
     display: block;
     position: fixed;
     bottom: 0;
     height: 10%;
     width: 100%;
+    background-color: white;
+    border-top: 2px solid grey;
+  }
+
+  .mobile-close-chat-btn {
+    position: fixed;
+    bottom: 2%;
+    height: 6%;
+    left: 12.5%;
+    width: 75%;
     z-index: 9999;
     background-color: #1982fc;
     margin: 0;
