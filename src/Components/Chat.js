@@ -72,7 +72,7 @@ export default () => {
       >
         Chat with
         <br />
-        BennyBot!
+        BennyBot
       </ReactTooltip>
     </>
   );
