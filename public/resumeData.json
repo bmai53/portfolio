@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Benny Mai",
-    "occupation": "Senior Undergraduate Student",
-    "description": "An aspiring software developer from Vancouver B.C",
+    "occupation": "Software Developer",
+    "description": "",
     "image": "profilepic.jpg",
-    "bio": "I am a senior undergraduate student, with a diverse background in Computer Science, Business, and Data Analytics. My recent projects involve working with various tools including C++, JavaScript, and Python.",
+    "bio": "I am a recent graduate, with a diverse background in Computer Science, Business, and Data Analytics. My recent projects involve working with various tools including C++, JavaScript, and Python.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "bmai@sfu.ca",
     "phone": "555-555-5555",

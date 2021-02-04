@@ -32,7 +32,7 @@ class About extends Component {
         margin: "auto",
       },
       button: {
-        width: 225,
+        width: "200px",
         textAlign: "left",
       },
     };

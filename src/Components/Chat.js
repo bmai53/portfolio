@@ -1,16 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import ReactTooltip from "react-tooltip";
-import chatbot from "../chatbot-white.png";
 
 export default () => {
   const [showChat, setShowChat] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  const chatButtonRef = useRef(null);
 
   useEffect(() => {
     const { innerWidth: width } = window;
     if (width < 480) {
       setIsSmallScreen(true);
     }
+    ReactTooltip.show(chatButtonRef.current);
   }, []);
 
   return (
@@ -42,6 +44,7 @@ export default () => {
       ) : null}
 
       <button
+        ref={chatButtonRef}
         data-tip
         data-for='chatTip'
         className='show-chat-btn'
@@ -53,20 +56,24 @@ export default () => {
         }}
       >
         {!showChat ? (
-          <>
-            {/* made by surang at https://www.flaticon.com/ */}
-            <img className='chatbot-image' src={chatbot} />
-          </>
+          <i className='show-chat-icon fa fa-comments'></i>
         ) : (
           "Close Chat"
         )}
       </button>
 
-      {!isSmallScreen ? (
-        <ReactTooltip id='chatTip' place='top' effect='solid' scrollHide={true}>
-          Chat with me!
-        </ReactTooltip>
-      ) : null}
+      <ReactTooltip
+        id='chatTip'
+        place='top'
+        effect='solid'
+        multiline
+        disable={isSmallScreen}
+        delayHide={1000}
+      >
+        Chat with
+        <br />
+        BennyBot!
+      </ReactTooltip>
     </>
   );
 };
