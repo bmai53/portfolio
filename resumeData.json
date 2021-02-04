@@ -86,7 +86,7 @@
       },
       {
         "title": "BennyBot",
-        "category": ["PyTorch", "Flask"],
+        "category": ["PyTorch", "Flask", "Bootstrap"],
         "image": "chatbot.png",
         "url": "https://chat-with-bennybot.herokuapp.com/"
       },
@@ -97,16 +97,16 @@
         "url": "https://bennymai.me/jokes-db/"
       },
       {
-        "title": "Typing Game",
-        "category": ["React", "CSS"],
-        "image": "typing-game.png",
-        "url": "https://bmai53.github.io/typing-game/"
-      },
-      {
         "title": "Trivia Frenzy",
         "category": ["Vue", "Bootstrap"],
         "image": "trivia-frenzy.png",
         "url": "https://bmai53.github.io/trivia-frenzy/"
+      },
+      {
+        "title": "Typing Game",
+        "category": ["React", "CSS"],
+        "image": "typing-game.png",
+        "url": "https://bmai53.github.io/typing-game/"
       },
       {
         "title": "Reddit Search",
