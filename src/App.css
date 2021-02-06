@@ -1,7 +1,8 @@
 .chatbot {
   background-color: white;
-  height: 750px;
-  width: 450px;
+  height: 60vh;
+  max-height: 750px;
+  width: 460px;
   position: fixed;
   bottom: 25px;
   right: 150px;
