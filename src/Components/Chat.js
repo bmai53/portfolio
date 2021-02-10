@@ -20,6 +20,16 @@ export default () => {
       {showChat ? (
         <>
           <div className='chatbot-wrapper'>
+            <div className='chatbot-header'>
+              <button
+                className='mobile-close-chat-btn'
+                onClick={() => {
+                  setShowChat(false);
+                }}
+              >
+                <i class='backIcon fa fa-chevron-left'></i> Exit Chat
+              </button>
+            </div>
             <iframe
               className='chatbot'
               src='https://chat-with-bennybot.herokuapp.com/'
@@ -29,16 +39,6 @@ export default () => {
                 <base target='_top' />
               </head>
             </iframe>
-          </div>
-          <div className='chatbot-footer'>
-            <button
-              className='mobile-close-chat-btn'
-              onClick={() => {
-                setShowChat(false);
-              }}
-            >
-              Close Chat
-            </button>
           </div>
         </>
       ) : null}
