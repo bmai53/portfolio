@@ -13,6 +13,16 @@ class About extends Component {
       var phone = this.props.data.phone;
       var email = this.props.data.email;
       var resumeDownload = this.props.data.resumedownload;
+
+      var networks = this.props.data.social.map(function (network) {
+        return (
+          <li key={network.name}>
+            <a href={network.url}>
+              <i className={network.className}></i>
+            </a>
+          </li>
+        );
+      });
     }
 
     if (this.props.data) {
@@ -49,8 +59,9 @@ class About extends Component {
             <h2>About Me</h2>
 
             <p>{bio}</p>
+
             <div className='row'>
-              <div className='columns contact-details'>
+              <div className='three columns contact-details'>
                 <h2>Contact Details</h2>
                 <p className='address'>
                   <span>{name}</span>
@@ -65,28 +76,30 @@ class About extends Component {
                 </p>
               </div>
 
-              <div className='download' style={aboutRowStyles.row}>
-                <span>
-                  <a
-                    href={resumeDownload}
-                    className='button'
-                    style={aboutRowStyles.button}
-                    target='_blank'
-                  >
-                    <i className='fa fa-download'></i>
-                    Resume
-                  </a>
-                </span>
-                <span>
-                  <a
-                    href={`mailto:${email}`}
-                    className='button'
-                    style={aboutRowStyles.button}
-                  >
-                    <i className='fa fa-envelope'></i>
-                    Contact Me
-                  </a>
-                </span>
+              <div className='six columns'>
+                <div className='download'>
+                  <span>
+                    <a
+                      href={resumeDownload}
+                      className='button'
+                      style={aboutRowStyles.button}
+                      target='_blank'
+                    >
+                      <i className='icon fa fa-download'></i>
+                      Resume
+                    </a>
+                  </span>
+                  <span>
+                    <a
+                      href={`mailto:${email}`}
+                      className='button'
+                      style={aboutRowStyles.button}
+                    >
+                      <i className='icon fa fa-envelope'></i>
+                      Contact Me
+                    </a>
+                  </span>
+                </div>
               </div>
             </div>
           </div>
