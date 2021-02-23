@@ -38,6 +38,7 @@ class App extends Component {
     this.getResumeData();
     const TRACKING_ID = "UA-190435445-1";
     ReactGA.initialize(TRACKING_ID);
+    ReactGA.pageview("/homepage");
   }
 
   render() {
