@@ -47,8 +47,8 @@ class Header extends Component {
               </a>
             </li>
             <li>
-              {/* <a className='smoothscroll' href='#resume'> */}
-              <a href={resumeDownload} target='_blank'>
+              <a className='smoothscroll' href='#resume'>
+                {/* <a href={resumeDownload} target='_blank'> */}
                 Resume
               </a>
             </li>

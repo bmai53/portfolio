@@ -61,7 +61,7 @@ class About extends Component {
             <p>{bio}</p>
 
             <div className='row'>
-              <div className='three columns contact-details'>
+              {/* <div className='three columns contact-details'>
                 <h2>Contact Details</h2>
                 <p className='address'>
                   <span>{name}</span>
@@ -74,11 +74,11 @@ class About extends Component {
                     <a href={`mailto:${email}`}> {email}</a>
                   </span>
                 </p>
-              </div>
+              </div> */}
 
               <div className='six columns'>
                 <div className='download'>
-                  <span>
+                  {/* <span>
                     <a
                       href={resumeDownload}
                       className='button'
@@ -88,7 +88,7 @@ class About extends Component {
                       <i className='icon fa fa-download'></i>
                       Resume
                     </a>
-                  </span>
+                  </span> */}
                   <span>
                     <a
                       href={`mailto:${email}`}
