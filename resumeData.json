@@ -4,7 +4,7 @@
     "occupation": "Software Developer",
     "description": "",
     "image": "profilepic.jpg",
-    "bio": "I am a recent graduate, with a diverse background in Computer Science, Business, and Data Analytics. My recent projects involve working with various tools including C++, JavaScript, and Python.",
+    "bio": "I am a software engineer from Vancouver, BC, with a diverse background in Computer Science, Business Administration, and Data Analytics. My current focus involves working on projects using various tools such as JavaScript/TypeScript, C++ and Python.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "mail@bennymai.me",
     "phone": "555-555-5555",
@@ -35,22 +35,28 @@
       {
         "school": "Simon Fraser University",
         "degree": "BSc Joint Major Computing Science & Business Administration",
-        "graduated": "December 2020",
-        "description": "Pursued study in multiple disciplines, including software development, data analytics, and information systems."
+        "graduated": "2021",
+        "description": ""
       }
     ],
     "work": [
       {
+        "company": "Spare Labs",
+        "title": "Software Engineer",
+        "years": "May 2021 - Present",
+        "description": ""
+      },
+      {
         "company": "Excelar Technologies",
         "title": "Software Developer",
-        "years": "September 2020 - Present",
-        "description": "Working in an agile team to develop an AI enhanced collaboration tool featuring Slack and Zoom integration using React and Redux."
+        "years": "September 2020 - April 2021",
+        "description": ""
       },
       {
         "company": "Vancouver Coastal Health",
-        "title": "Jr. Business Analyst ",
+        "title": "Jr. Business Analyst",
         "years": "January 2019 - April 2019",
-        "description": "Managed collaboration between multiple teams consisting of onsite and remote out of country team members in a dynamic work environment."
+        "description": ""
       }
     ],
     "skills": [
