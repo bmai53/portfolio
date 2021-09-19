@@ -6,7 +6,7 @@
     "image": "profilepic.jpg",
     "bio": "I am a software engineer from Vancouver, BC, with a diverse background in Computer Science, Business Administration, and Data Analytics. My current focus involves working on projects using various tools such as JavaScript/TypeScript, C++ and Python.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "mail@bennymai.me",
+    "email": "hello@bmai.dev",
     "phone": "555-555-5555",
     "address": {
       "street": "(Your Street)",
@@ -14,7 +14,7 @@
       "state": "BC",
       "zip": "(Your Zip/Postal Code)"
     },
-    "website": "http://bennymai.me",
+    "website": "https://bmai.dev",
     "resumedownload": "https://drive.google.com/file/d/1YxeF48LOWgd7idtYihiPnFrQb1ooD7-H/view?usp=sharing",
     "social": [
       {
