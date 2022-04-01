@@ -34,6 +34,12 @@
   display: none;
 }
 
+.chatbot {
+  background: url(/images/loader.gif) center center no-repeat;
+  background-size: 50px;
+  background-color: white;
+}
+
 /* mobile + small screen */
 @media screen and (max-width: 480px) {
   .chatbot {
