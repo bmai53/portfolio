@@ -46,12 +46,12 @@ class Header extends Component {
                 Projects
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className='smoothscroll' href='#resume'>
-                {/* <a href={resumeDownload} target='_blank'> */}
+              <a href={resumeDownload} target='_blank'>
                 Resume
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
 
