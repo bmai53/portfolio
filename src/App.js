@@ -49,7 +49,7 @@ class App extends Component {
         <Portfolio data={this.state.resumeData.portfolio} />
         {/* <Resume data={this.state.resumeData.resume} /> */}
         <Footer data={this.state.resumeData.main} />
-        <Chat />
+        {/* <Chat /> */}
       </div>
     );
   }
